@@ -1,0 +1,18 @@
+.history-detail {
+  padding: 40rpx;
+  .item {
+    display: flex;
+    .label {
+      margin-right: 20rpx;
+    }
+  }
+  .answers {
+    margin-top: 20rpx;
+    .answer {
+      margin-bottom: 20rpx;
+      .item {
+        margin-bottom: 10rpx;
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.register {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #0cb956;
+    color: #fff;
+    .title {
+      margin: 40rpx;
+      font-size: 40rpx;
+    }
+    .sub-title {
+      font-size: 32rpx;
+      margin-bottom: 40rpx;
+    }
+  }
+  .content {
+    padding: 40rpx;
+    .title {
+      text-align: center;
+    }
+    .bind-teacher {
+      position: fixed;
+      z-index: 99;
+      bottom: 32rpx;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .select-area {
+      margin-top: 20rpx;
+      .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 42%;
+        height: 200rpx;
+        float: left;
+        border: 4px solid #0cb956;
+        border-radius: 8rpx;
+        margin: 20rpx;
+        &--active {
+          background: #0cb956;
+          color: #fff;
+        }
+      }
+    }
+    .pending {
+      font-size: 36rpx;
+      .gohome {
+        margin-top: 20rpx;
+      }
+    }
+  }
+}

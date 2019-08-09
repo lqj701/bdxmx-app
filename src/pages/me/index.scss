@@ -1,0 +1,53 @@
+.me {
+  min-height: 100vh;
+  background: #f0f2f5;
+  .header {
+    padding: 0 40rpx;
+    color: #fff;
+    background: #0cb956;
+    height: 200rpx;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    .avatar {
+      overflow: hidden;
+      display: block;
+      width: 120rpx;
+      height: 120rpx;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    }
+    .info {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: 60rpx;
+      .name {
+        font-size: 36rpx;
+      }
+      .gender {
+        font-size: 32rpx;
+      }
+    }
+  }
+  .profile {
+    &-content {
+      background: #fff;
+      padding: 20rpx;
+      border-radius: 30rpx;
+      width: 650rpx;
+      margin-top: -60rpx;
+      height: 80rpx;
+    }
+  }
+  .setting {
+    margin-top: 40rpx;
+    &-list {
+      padding: 20rpx;
+      border-radius: 30rpx;
+      width: 650rpx;
+    }
+  }
+}

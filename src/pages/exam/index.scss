@@ -1,0 +1,24 @@
+.exam {
+  .start {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40rpx;
+    width: 600rpx;
+    margin: 200rpx auto;
+    .name,
+    .auther,
+    .score {
+      margin-bottom: 20rpx;
+      display: flex;
+      .label {
+        width: 120rpx;
+      }
+    }
+    .button {
+      width: 600rpx;
+      margin: 100rpx auto;
+    }
+  }
+}

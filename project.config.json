@@ -1,0 +1,70 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "bdxmx-app",
+	"description": "",
+	"appid": "wx395c278f62ad4ceb",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"libVersion": "2.0.4",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 4,
+			"list": [
+				{
+					"id": -1,
+					"name": "paper",
+					"pathName": "pages/paper/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "考试",
+					"pathName": "pages/exam/index",
+					"query": "id=1"
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/me/index",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "挑选老师",
+					"pathName": "pages/me/pickTeacher/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "help",
+					"pathName": "pages/me/help/index",
+					"scene": null
+				}
+			]
+		}
+	}
+}
