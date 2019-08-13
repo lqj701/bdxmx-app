@@ -2,6 +2,7 @@ import Taro from '@tarojs/taro'
 import { View } from '@tarojs/components'
 import PaperList from '../../components/paperList'
 import './index.scss'
+import {RecommendSwiper} from "../../components/recommendSwiper";
 
 export default class Paper extends Taro.Component {
   config = {
@@ -15,6 +16,7 @@ export default class Paper extends Taro.Component {
   render() {
     return (
       <View>
+        <RecommendSwiper />
         <PaperList />
       </View>
     )

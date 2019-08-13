@@ -1,6 +1,7 @@
 import Taro from '@tarojs/taro'
 import { View } from '@tarojs/components'
 import { RecommendSwiper } from '../../components/recommendSwiper'
+import { Introduce } from '../../components/introduce'
 import PaperList from '../../components/paperList'
 import { getOpenId, getStudentByOpenid } from '../../service/apis'
 import store from '../../service/store'
@@ -41,8 +42,7 @@ export default class Find extends Taro.Component {
     const { loading } = this.state
     return (
       <View>
-        {!loading && <RecommendSwiper />}
-        {!loading && <PaperList />}
+        {!loading && <Introduce />}
       </View>
     )
   }
