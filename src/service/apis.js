@@ -115,3 +115,14 @@ export const getAnswerSheet = (params = {}) => {
     })
   })
 }
+
+// 获取试题
+export const getQuestion = (params = {}) => {
+  return new Promise(resolve => {
+    Taro.request({
+      url: `https://api.bdxmx.com/api/mp/getQuestion/${params}`,
+      method: 'GET',
+      success: res => resolve(res.data),
+    })
+  })
+}

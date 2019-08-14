@@ -74,6 +74,9 @@ export default class History extends Taro.Component {
               <View className="item">
                 正确答案：{answerSheet.standardAnswer[i]}
               </View>
+              <View className="item">
+                解答：{answerSheet.answerExplain[i]}
+              </View>
             </View>
           ))}
         </View>

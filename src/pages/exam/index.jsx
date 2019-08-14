@@ -139,6 +139,12 @@ export default class Exam extends Taro.Component {
             >
               {finished ? '提交试卷' : '下一题'}
             </Button>
+            <Button
+                style={{ width: '600rpx', margin: '20rpx auto' }}
+                onClick={this.getQuestionAnswer}
+            >
+              {'标准答案'}
+            </Button>
           </View>
         ) : (
           <View className="start">
