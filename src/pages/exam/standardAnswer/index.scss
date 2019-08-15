@@ -1,0 +1,18 @@
+.standardAnswer {
+  padding: 40 rpx;
+  .item {
+    display: flex;
+    .label {
+      margin-right: 20 rpx;
+    }
+  }
+  .answers {
+    margin-top: 20 rpx;
+    .answer {
+      margin-bottom: 20 rpx;
+      .item {
+        margin-bottom: 10 rpx;
+      }
+    }
+  }
+}
