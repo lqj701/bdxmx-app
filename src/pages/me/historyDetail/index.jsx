@@ -70,7 +70,7 @@ export default class History extends Taro.Component {
                 第{`${i + 1}`}题
               </View>
               <View className="item">题目：{v.name}</View>
-              <View className="item">你的答案：{v.answer}</View>
+              <View className="item">你的答案：<View className={v.answer === answerSheet.standardAnswer[i] ?"green" : "red"}>{v.answer}</View></View>
               <View className="item">
                 正确答案：{answerSheet.standardAnswer[i]}
               </View>
